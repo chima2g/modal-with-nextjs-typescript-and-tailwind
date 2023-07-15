@@ -15,6 +15,7 @@ export default function Home() {
         <ConfirmationModal 
           isOpen={confirmationModalOpen}
           handleClose={() => setConfirmationModalOpen(!confirmationModalOpen)}>
+            {/* Changed the css in these next two lines. To get it looking right. Perhaps I copied them wrong */}
             <div className="flex flex-col justify-between h-full w-full">
               <div className="flex flex-col mr-auto mb-auto items-center justify-center p-8 w-full h-full">
                 <span>Are you sure you want to cancel?</span>
